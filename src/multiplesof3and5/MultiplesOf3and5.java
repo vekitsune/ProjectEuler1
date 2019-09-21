@@ -18,7 +18,7 @@ public class MultiplesOf3and5 {
      */
     public static void main(String[] args) {
         int sum=0;
-        int hatar=(Integer.parseInt(JOptionPane.showInputDialog(null, "Add meg az értéket, ami alattkiváncsi vagy 3 és 5 többszöröseinek összeglre")));
+        int hatar=(Integer.parseInt(JOptionPane.showInputDialog(null, "Add meg az értéket, ami alatt kiváncsi vagy 3 és 5 többszöröseinek összegére")));
      for(int i=0;i<hatar;i++){
          if((i%3==0)||(i%5==0)){
              sum+=i;
